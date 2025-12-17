@@ -1,0 +1,21 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "GoIT JavaScript Homework 09",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/goit-js-hw-09/",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "glob": "^10.3.10"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.14.2"
+  }
+}
