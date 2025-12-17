@@ -3,11 +3,11 @@ import { glob } from 'glob';
 import path from 'node:path';
 
 export default defineConfig({
-  root: 'public',
+  root: 'src',
   build: {
     sourcemap: true,
     rollupOptions: {
-      input: glob.sync('./public/*.html'),
+      input: glob.sync('./src/*.html'),
     },
     outDir: '../dist',
     emptyOutDir: true,
