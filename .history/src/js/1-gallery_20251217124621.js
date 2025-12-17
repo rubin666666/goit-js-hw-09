@@ -17,9 +17,9 @@ const images = [
 const gallery = document.querySelector(".gallery");
 gallery.innerHTML = images.map(
   ({ preview, original, description }) => `
-    <li class="gallery-item">
-      <a class="gallery-link" href="${original}">
-        <img class="gallery-image" src="${preview}" alt="${description}" />
+    <li>
+      <a href="${original}">
+        <img src="${preview}" alt="${description}" />
       </a>
     </li>`
 ).join("");
