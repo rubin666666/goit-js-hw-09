@@ -65,6 +65,6 @@ gallery.innerHTML = images.map(
 console.log("Gallery HTML:", gallery.innerHTML);
 
 new SimpleLightbox(".gallery a", {
-  captionsData: false,
+  captionsData: "alt",
   captionDelay: 250,
 });
