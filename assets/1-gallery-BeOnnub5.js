@@ -10,5 +10,5 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       <a class="gallery-link" href="${O}">
         <img class="gallery-image" src="${g}" data-source="${O}" alt="${p}" />
       </a>
-    </li>`).join("");console.log("Gallery HTML:",E.innerHTML);new F(".gallery a",{captionsData:!1,captionDelay:250});
-//# sourceMappingURL=1-gallery-BEEQmryn.js.map
+    </li>`).join("");console.log("Gallery HTML:",E.innerHTML);new F(".gallery a",{captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=1-gallery-BeOnnub5.js.map
