@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
   <main class="container">
@@ -12,16 +12,16 @@
     <form class="feedback-form" autocomplete="off">
       <label>
         Email
+        <input type="email" name="email" autofocus />
       </label>
-      <input type="email" name="email" autofocus />
       <label>
         Message
+        <textarea name="message" rows="8"></textarea>
       </label>
-      <textarea name="message" rows="8"></textarea>
       <button type="submit">Submit</button>
     </form>
     <a href="index.html">Go back</a>
-    <script type="module" src="/js/2-form.js"></script>
+    <script type="module" src="/src/js/2-form.js"></script>
   </main>
 </body>
 </html>

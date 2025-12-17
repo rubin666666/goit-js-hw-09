@@ -19,32 +19,32 @@ const images = [
   },
   {
     preview: "/img/1-1.jpg",
-    original: "/img/1.jpg",
+    original: "/img/2-2.jpg",
     description: "Image 4",
   },
   {
     preview: "/img/2-1.jpg",
-    original: "/img/2.jpg",
+    original: "/img/3-2.jpg",
     description: "Image 5",
   },
   {
     preview: "/img/3-1.jpg",
-    original: "/img/3.jpg",
+    original: "/img/1.jpg",
     description: "Image 6",
   },
   {
     preview: "/img/2-2.jpg",
-    original: "/img/14.jpg",
+    original: "/img/2.jpg",
     description: "Image 7",
   },
   {
     preview: "/img/3-2.jpg",
-    original: "/img/2-2.jpg",
+    original: "/img/3.jpg",
     description: "Image 8",
   },
   {
-    preview: "/img/14.jpg",
-    original: "/img/3-2.jpg",
+    preview: "/img/1.jpg",
+    original: "/img/1-1.jpg",
     description: "Image 9",
   },
 ];
@@ -65,6 +65,6 @@ gallery.innerHTML = images.map(
 console.log("Gallery HTML:", gallery.innerHTML);
 
 new SimpleLightbox(".gallery a", {
-  captionsData: false,
+  captionsData: "alt",
   captionDelay: 250,
 });

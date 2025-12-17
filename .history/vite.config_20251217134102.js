@@ -7,9 +7,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   root: 'public',
-  define: {
-    global: 'window',
-  },
   build: {
     sourcemap: true,
     rollupOptions: {
