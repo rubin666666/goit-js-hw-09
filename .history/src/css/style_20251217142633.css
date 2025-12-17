@@ -32,7 +32,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 24px;
   list-style: none;
   max-width: 1200px;
   margin: 0 auto 40px;
@@ -40,7 +40,7 @@
 }
 
 .gallery-item {
-  flex-basis: calc(33.333% - 12px);
+  flex-basis: calc(33.333% - 16px);
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
