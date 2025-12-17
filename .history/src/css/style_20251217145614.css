@@ -76,13 +76,13 @@
 /* SimpleLightbox overlay */
 .sl-overlay {
   background: rgba(0, 0, 0, 0.8) !important;
+  padding: 28px 164px !important;
+  box-sizing: border-box !important;
 }
 
 .sl-wrapper {
-  padding: 28px 164px !important;
-  box-sizing: border-box !important;
-  width: 100vw !important;
-  height: 100vh !important;
+  width: 100% !important;
+  height: 100% !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;

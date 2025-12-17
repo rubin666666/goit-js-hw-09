@@ -35,8 +35,8 @@
   gap: 24px;
   list-style: none;
   max-width: 100%;
-  margin: 0 auto;
-  padding: 24px 156px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
 }
 
 .gallery-item {
@@ -69,6 +69,21 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+.gallery-link {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
 .gallery-image:hover {
   transform: scale(1.05);
 }
@@ -76,24 +91,6 @@
 /* SimpleLightbox overlay */
 .sl-overlay {
   background: rgba(0, 0, 0, 0.8) !important;
-}
-
-.sl-wrapper {
-  padding: 28px 164px !important;
-  box-sizing: border-box !important;
-  width: 100vw !important;
-  height: 100vh !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.sl-wrapper .sl-image {
-  max-width: 100% !important;
-  max-height: 100% !important;
-  width: auto !important;
-  height: auto !important;
-  object-fit: contain !important;
 }
 
 .sl-wrapper .sl-close,

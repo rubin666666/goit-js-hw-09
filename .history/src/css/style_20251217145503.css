@@ -76,23 +76,19 @@
 /* SimpleLightbox overlay */
 .sl-overlay {
   background: rgba(0, 0, 0, 0.8) !important;
+  padding: 28px 164px !important;
 }
 
 .sl-wrapper {
-  padding: 28px 164px !important;
-  box-sizing: border-box !important;
-  width: 100vw !important;
-  height: 100vh !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .sl-wrapper .sl-image {
   max-width: 100% !important;
   max-height: 100% !important;
-  width: auto !important;
-  height: auto !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: contain !important;
 }
 

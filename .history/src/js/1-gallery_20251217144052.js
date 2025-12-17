@@ -63,6 +63,4 @@ gallery.innerHTML = images.map(
 new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
-  animationSpeed: 300,
-  fadeSpeed: 300,
 });
