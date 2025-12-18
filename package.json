@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "glob": "^10.3.10",
     "vite": "^5.0.0",
-    "glob": "^10.3.10"
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
   },
   "dependencies": {
     "simplelightbox": "^2.14.2"
